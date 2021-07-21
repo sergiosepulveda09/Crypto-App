@@ -65,7 +65,7 @@ struct Coin: Codable, Identifiable {
     let low24H: Double?
     let priceChange24H: Double?
     let priceChangePercentage24H: Double?
-    let marketCapChange24H: Double??
+    let marketCapChange24H: Double?
     let marketCapChangePercentage24H: Double?
     let circulatingSupply: Double?
     let totalSupply: Double?
