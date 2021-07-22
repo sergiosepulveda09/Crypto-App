@@ -16,7 +16,7 @@ struct CircleButtonAnimationView: View {
             .stroke(lineWidth: 2)
             .scale(animate ? 1 : 0)
             .opacity(animate ? 0.0 : 1.0)
-            .animation(animate ? Animation.easeOut(duration: 1) : /*.easeIn(duration: 1)*/ .none)
+            .animation(animate ? Animation.easeOut(duration: 1) : /*.easeIn(duration: 1)*/ .easeOut(duration: 1))
     }
 }
 
