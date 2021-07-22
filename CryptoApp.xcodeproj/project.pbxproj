@@ -21,6 +21,7 @@
 		80CFD35126A89ACC009790A2 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 80CFD35026A89ACC009790A2 /* Kingfisher */; };
 		80CFD35326A89D72009790A2 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CFD35226A89D72009790A2 /* Double.swift */; };
 		80CFD35526A8E8D0009790A2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CFD35426A8E8D0009790A2 /* HomeViewModel.swift */; };
+		80CFD35826A90856009790A2 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CFD35726A90856009790A2 /* CoinDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		80CFD34D26A89697009790A2 /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
 		80CFD35226A89D72009790A2 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		80CFD35426A8E8D0009790A2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		80CFD35726A90856009790A2 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		80CFD32926A7EFD5009790A2 /* CryptoApp */ = {
 			isa = PBXGroup;
 			children = (
+				80CFD35626A90832009790A2 /* Networking */,
 				80CFD33C26A7F4DE009790A2 /* Core */,
 				80CFD33926A7F2C5009790A2 /* Extensions */,
 				80CFD34826A88D17009790A2 /* Models */,
@@ -162,6 +165,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		80CFD35626A90832009790A2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				80CFD35726A90856009790A2 /* CoinDataService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -243,6 +254,7 @@
 				80CFD34126A7F530009790A2 /* HomeView.swift in Sources */,
 				80CFD32B26A7EFD5009790A2 /* CryptoAppApp.swift in Sources */,
 				80CFD34526A8857D009790A2 /* CircleButtonView.swift in Sources */,
+				80CFD35826A90856009790A2 /* CoinDataService.swift in Sources */,
 				80CFD33B26A7F2D7009790A2 /* Color.swift in Sources */,
 				80CFD34726A888B6009790A2 /* CircleButtonAnimationView.swift in Sources */,
 				80CFD34E26A89697009790A2 /* DummyData.swift in Sources */,
