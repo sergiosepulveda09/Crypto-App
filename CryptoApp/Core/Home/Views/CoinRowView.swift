@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import Kingfisher
 
 struct CoinRowView: View {
     
@@ -52,9 +51,7 @@ extension CoinRowView {
                 .foregroundColor(Color.theme.secondaryText)
                 .frame(minWidth: 30)
             
-            KFImage(URL(string:coin.image))
-                .resizable()
-                .scaledToFit()
+            CoinImageView(coin: coin)
                 .frame(width: 30, height: 30)
             
             Text(coin.symbol.uppercased())
