@@ -11,7 +11,7 @@
 Personal practice to improve my own skills
 
 # Technologies
-SwiftUI/Swift
+SwiftUI/Swift/Combine/KingFisher
 
 # Ilustrations
 
