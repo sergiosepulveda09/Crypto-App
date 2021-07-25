@@ -22,6 +22,7 @@
 		80CFD35326A89D72009790A2 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CFD35226A89D72009790A2 /* Double.swift */; };
 		80CFD35526A8E8D0009790A2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CFD35426A8E8D0009790A2 /* HomeViewModel.swift */; };
 		80CFD35826A90856009790A2 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CFD35726A90856009790A2 /* CoinDataService.swift */; };
+		80ED68D726AE066E000BD7F5 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED68D626AE066E000BD7F5 /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		80CFD35226A89D72009790A2 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		80CFD35426A8E8D0009790A2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		80CFD35726A90856009790A2 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		80ED68D626AE066E000BD7F5 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				80CFD35726A90856009790A2 /* CoinDataService.swift */,
+				80ED68D626AE066E000BD7F5 /* NetworkingManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				80CFD34526A8857D009790A2 /* CircleButtonView.swift in Sources */,
 				80CFD35826A90856009790A2 /* CoinDataService.swift in Sources */,
 				80CFD33B26A7F2D7009790A2 /* Color.swift in Sources */,
+				80ED68D726AE066E000BD7F5 /* NetworkingManager.swift in Sources */,
 				80CFD34726A888B6009790A2 /* CircleButtonAnimationView.swift in Sources */,
 				80CFD34E26A89697009790A2 /* DummyData.swift in Sources */,
 				80CFD35326A89D72009790A2 /* Double.swift in Sources */,
